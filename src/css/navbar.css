@@ -1,0 +1,38 @@
+.navbar {
+    margin-bottom: 0;
+    opacity: 0.5px;
+    height: 80px;
+  }
+  
+  .navbar-nav li a {
+    text-transform: uppercase;
+    
+  }
+  
+  .navbar-inverse {
+    background-color: #0a1a2a;
+    border-color: #0a1a2a;
+    
+  }
+  
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:focus,
+  .navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #21558a;
+  }
+  
+  .navbar-brand {
+    font-family: Cookie;
+    font-size: 2.50rem;
+  }
+  
+  .navbar-inverse .navbar-toggle {
+    background-color: #0a1a2a;
+    border-color: #0a1a2a;
+    transition: background-color 200ms ease-in-out;
+  }
+  
+  .navbar-inverse .navbar-toggle:hover,
+  .navbar-inverse .navbar-toggle:focus {
+    background-color: #21558a;
+  }
